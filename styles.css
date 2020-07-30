@@ -1,0 +1,139 @@
+.container {
+    width: 100%;
+    max-width: 100% !important;
+    color: white;    
+    text-align: center;
+}
+
+.fa-facebook , .fa-twitter , .fa-whatsapp , .fa-instagram {
+    margin:10px
+}
+
+.nav-link{
+    font-weight: bold;
+    color: black;
+}
+
+
+.fa-shopping-basket,.fa-user .fa-heart{
+    font-size:18px !Important;
+    margin-right:20px;
+}
+
+
+i.fa.fa-user {
+    margin-top: 11px;
+}
+
+i.fa.fa-shopping-basket {
+    margin-top: 9px;
+    margin-left:19px;
+}
+
+i.fa.fa-heart {
+    margin-top: 11px;
+}
+
+.fa-truck,.fa-headphones,.fa-thumbs-up{
+    font-size:50px !important;
+    margin-right:10px;
+}
+
+.card1,.card2,.card3{
+    display: flex;
+    width: 32.33%;
+    height: 100px;
+    background-color: white;
+    box-shadow: 2px 4px 5px gray;
+    justify-content: center;
+    align-items: center;
+    margin-top:10px;
+
+}
+
+
+.mainCard{
+    margin-top:30px;   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;   
+    flex-wrap: wrap ;  
+    
+}
+
+.card{
+    margin-top:50px;
+    width:100%;
+}
+
+.card-text,.card-title{
+    color: black;
+    font-weight: bold;
+}
+
+.btn-primary{
+    width: 100%;
+}
+
+
+.new-food{
+    text-align: center;
+    margin-top: 25px;
+    text-decoration: underline;
+}
+a:hover{
+    color:white !important;
+}
+
+a{
+    color:white !important;
+}
+
+.nav-link{
+    color:black !important;
+    margin-right:10px;;
+}
+
+.nav-link:hover{
+    color:black !important;
+}
+
+.row.d-flex.align-items-center{
+    background-color: black !important;
+}
+
+@media only screen and (max-width: 600px){
+    i.fa.fa-shopping-basket {
+        margin-top: -18px;
+        margin-left: 19px;
+        top: -22%;
+        vertical-align: top;
+    }
+
+    i.fa.fa-heart {
+        margin-top: -41px;
+        margin-left: 55%;
+        vertical-align: top;
+    }
+
+    i.fa.fa-user {
+        vertical-align: bottom;
+        margin-left: -5%;
+    }
+
+    .col-6.col-md-4 {
+        margin-left: 25%;
+    }
+
+    .card1,.card2,.card3{
+        display: flex;
+        width: 95%;
+        height: 100px;
+        background-color: white;
+        box-shadow: 2px 4px 5px gray;
+        justify-content: center;
+        align-items: center;
+        margin-top:10px;
+    
+    }
+}
